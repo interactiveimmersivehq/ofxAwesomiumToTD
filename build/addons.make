@@ -1,0 +1,3 @@
+ofxNetwork
+ofxAwesomium
+ofxSpout2
