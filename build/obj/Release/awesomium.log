@@ -1,0 +1,275 @@
+﻿Build started 10/22/2015 1:57:27 AM.
+     1>Project "D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\awesomium.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /Isrc /I..\..\..\addons\ofxNetwork\libs /I..\..\..\addons\ofxNetwork\src /I..\..\..\addons\ofxAwesomium\libs /I..\..\..\addons\ofxAwesomium\src /I"C:\Program Files (x86)\Awesomium Technologies LLC\Awesomium SDK\1.7.5.1\\include" /I..\..\..\addons\ofxSpout2\libs /I..\..\..\addons\ofxSpout2\src /I..\..\..\addons\ofxSpout2\libs\include /I..\..\..\addons\ofxSpout2\libs\src /I"C:\Program Files (x86)\Awesomium Technologies LLC\Awesomium SDK\1.7.5.1\include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp src\ofApp.cpp ..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp ..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp ..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp ..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp ..\..\..\addons\ofxAwesomium\src\ofxAwesomium.cpp ..\..\..\addons\ofxSpout2\src\ofxSpout2.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutDirectX.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutGLDXinterop.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutGLextensions.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutMemoryShare.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutReceiver.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutSDK.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutSender.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutSenderNames.cpp ..\..\..\addons\ofxSpout2\libs\src\SpoutSharedMemory.cpp
+         main.cpp
+     1>D:\oF\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\oF\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofApp.cpp
+     1>D:\oF\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\oF\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxTCPClient.cpp
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(15): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(16): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(17): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(18): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(20): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(21): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(22): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(23): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(24): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(25): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(26): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(27): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(28): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(29): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(30): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(32): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(33): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(34): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(35): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+         ofxTCPManager.cpp
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(15): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(16): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(17): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(18): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(20): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(21): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(22): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(23): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(24): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(25): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(26): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(27): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(28): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(29): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(30): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(32): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(33): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(34): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(35): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+         ofxTCPServer.cpp
+         ofxUDPManager.cpp
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(15): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(16): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(17): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(18): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(20): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(21): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(22): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(23): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(24): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(25): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(26): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(27): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(28): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(29): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(30): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(32): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(33): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(34): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>d:\of\of_v0.8.4_vs_release\addons\ofxnetwork\src\ofxNetworkUtils.h(35): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+         ofxAwesomium.cpp
+     1>D:\oF\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\oF\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxSpout2.cpp
+     1>D:\oF\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\oF\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         SpoutDirectX.cpp
+         SpoutGLDXinterop.cpp
+         SpoutGLextensions.cpp
+         SpoutMemoryShare.cpp
+         SpoutReceiver.cpp
+         SpoutSDK.cpp
+         SpoutSender.cpp
+         SpoutSenderNames.cpp
+         SpoutSharedMemory.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"obj\Release\icon.res" icon.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\ofxAwesomiumToTD.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs /LIBPATH:"C:\Program Files (x86)\Awesomium Technologies LLC\Awesomium SDK\1.7.5.1\\build\lib" /LIBPATH:"C:\Program Files (x86)\Awesomium Technologies LLC\Awesomium SDK\1.7.5.1\build\lib" "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudio.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib crypt32.lib libeay32MD.lib ssleay32MD.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib awesomium.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\ofxAwesomiumToTD.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\ofxAwesomiumToTD.lib" /MACHINE:X86 /SAFESEH obj\Release\icon.res
+         obj\Release\main.obj
+         obj\Release\ofApp.obj
+         obj\Release\ofxTCPClient.obj
+         obj\Release\ofxTCPManager.obj
+         obj\Release\ofxTCPServer.obj
+         obj\Release\ofxUDPManager.obj
+         obj\Release\ofxAwesomium.obj
+         obj\Release\ofxSpout2.obj
+         obj\Release\SpoutDirectX.obj
+         obj\Release\SpoutGLDXinterop.obj
+         obj\Release\SpoutGLextensions.obj
+         obj\Release\SpoutMemoryShare.obj
+         obj\Release\SpoutReceiver.obj
+         obj\Release\SpoutSDK.obj
+         obj\Release\SpoutSender.obj
+         obj\Release\SpoutSenderNames.obj
+         obj\Release\SpoutSharedMemory.obj
+         D:\oF\of_v0.8.4_vs_release\libs\openFrameworksCompiled\lib\vs\openframeworksLib.lib
+            Creating library bin\ofxAwesomiumToTD.lib and object bin\ofxAwesomiumToTD.exp
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         awesomium.vcxproj -> D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\bin\ofxAwesomiumToTD.exe
+       PostBuildEvent:
+         xcopy /e /i /y "D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\..\..\..\export\vs\*.dll" "D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\bin"
+         :VCEnd
+         D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\..\..\..\export\vs\Assimp32.dll
+         D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\..\..\..\export\vs\fmodex.dll
+         D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\..\..\..\export\vs\fmodexL.dll
+         D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\..\..\..\export\vs\FreeImage.dll
+         D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\..\..\..\export\vs\FreeType-6.dll
+         D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\..\..\..\export\vs\glut32.dll
+         D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\..\..\..\export\vs\libeay32.dll
+         D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\..\..\..\export\vs\ssleay32.dll
+         D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\..\..\..\export\vs\Zlib.dll
+         9 File(s) copied
+     1>Done Building Project "D:\oF\of_v0.8.4_vs_release\apps\myApps\awesomium\awesomium.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.34
