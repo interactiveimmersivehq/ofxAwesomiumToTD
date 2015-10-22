@@ -2,6 +2,8 @@
 openFrameworks app that renders full webpages and sends them as textures to TouchDesigner via Spout v2.
 
 ##Usage
+To run the app, run ```ofxAwesomiumToTD.exe``` in /bin. Awesomium needed a bunch of dll's to work, probably bad form to upload them all here, but it makes everyone else using this much easier. If you want to move the app, move the whole /bin folder, you can rename the bin folder if you like. I'm sure some of the other stuff doesn't need to be in there either, so clean-up is on the to-do list.
+
 Included ```.toe``` file has a ```Spout In TOP``` looking at the sender name "ofxAwesomiumToTD". The app can also receive URLs via UDP. The ```text1``` DAT has a script to send a message with the URL in it. No fancy encodings or formatting, just the URL name. Be wary, there is no protection on the other side from bad URLs, so double check your URL's before you send them down the UDP pipe, no guarantee what could happen! Send UDP messages to port 12000 on localhost. Currently you can see the scroll bars, so you'll have to crop them out in TouchDesigner.
 
 ##Build and Version
@@ -22,6 +24,7 @@ Many thanks to the following:
 - ofxAwesomium - https://github.com/mpcdigital/ofxAwesomium
 
 ##Future
+- Clean up project
 - Add a way to change resolution. Could do it via XML or similar, but something dynamic might be nice
 - Get rid of scroll bars from browser
 - The goal is to eventually try to wrap all of this straight into a TouchDesigner C++ TOP but we're a bit hesitant with the performance of Awesomium
