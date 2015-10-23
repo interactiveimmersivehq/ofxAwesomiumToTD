@@ -23,6 +23,8 @@ Many thanks to the following:
 - ofxSpout2 - https://github.com/Kj1/ofxSpout2
 - ofxAwesomium - https://github.com/mpcdigital/ofxAwesomium
 
+If you use this in a TouchDesigner project, feel free to give us (nVoid) a shout out or show us what you're working on!
+
 ##Future
 - Clean up project
 - Add a way to change resolution. Could do it via XML or similar, but something dynamic might be nice
