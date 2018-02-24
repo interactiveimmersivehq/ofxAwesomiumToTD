@@ -1,3 +1,5 @@
+# Deprecated. Use at your own discretion.
+
 # ofxAwesomiumToTD
 openFrameworks app that renders full webpages and sends them as textures to TouchDesigner via Spout v2.
 
